@@ -4,7 +4,7 @@ Borden, J.B., J.P. Gibbs, J.P. Vanek, and B.J. Cosentino. Ecological and evoluti
 
 The following files are included:
 
-### fullModel.R
+#### fullModel.R
 
 R Code to fit full model including urbanization submodel and squirrel abundance submodel.
 
