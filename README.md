@@ -8,22 +8,22 @@ The following files are included:
 
 R Code to fit full model including urbanization submodel and squirrel abundance submodel.
 
-predators.csv
+#### predators.csv
 
 Predator detection histories used to quantify predator activity index.
 
-siteCovariates.csv
+#### siteCovariates.csv
 
 Environmental covariates used to fit urbanization submodel.
 
-squirrelObservations.RData
+#### squirrelObservations.RData
 
 Squirrel detections, squirrel count data, and temperature data used to fit abundance submodel.
 
-urbanCovariates.RData
+#### urbanCovariates.RData
 
 Environmental covariates saved from urbanSubmodel.R for fullModel.R
 
-urbanSubmodel.R
+#### urbanSubmodel.R
 
 R code used to fit urbanization submodel.
