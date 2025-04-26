@@ -1,29 +1,22 @@
 This reposotory contains data and code for the following manuscript:
 
-Borden, J.B., J.P. Gibbs, J.P. Vanek, and B.J. Cosentino. Ecological and evolutionary impacts of urbanization: applying a causal modeling framework.
+Borden, J.B., J.P. Gibbs, J.P. Vanek, and B.J. Cosentino. Beyond urbanization metrics: Using graphical causal models to investigate mechanisms in urban ecology and evolution
 
 The following files are included:
 
-#### fullModel.R
+#### measuredVariables.R
 
-R Code to fit full model including urbanization submodel and squirrel abundance submodel.
+R Code to estimate direct effects among measured variables based on the DAG in Fig. 3A.
 
-#### predators.csv
+#### measuredVariables.RData
 
-Predator detection histories used to quantify predator activity index.
+Measured environmental variables and predator activity data at each site. 
 
-#### siteCovariates.csv
+#### squirrleModels.R
 
-Environmental covariates used to fit urbanization submodel.
+R code used to estimate direct effects, total effects, and univariate models of proportion melanic squirrels at each site.
 
 #### squirrelObservations.RData
 
-Squirrel detections, squirrel count data, and temperature data used to fit abundance submodel.
+Squirrel detections, squirrel count data, and temperature data used to fit models proportion melanic squirrels at each site.
 
-#### urbanCovariates.RData
-
-Environmental covariates saved from urbanSubmodel.R for fullModel.R
-
-#### urbanSubmodel.R
-
-R code used to fit urbanization submodel.
