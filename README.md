@@ -1,12 +1,12 @@
-This reposotory contains data and code for the following manuscript:
+*This reposotory contains data and code for the following manuscript:*
 
-Borden, J.B., J.P. Gibbs, J.P. Vanek, and B.J. Cosentino. Beyond urbanization metrics: Using graphical causal models to investigate mechanisms in urban ecology and evolution
+**Borden, J.B., J.P. Gibbs, J.P. Vanek, and B.J. Cosentino. Beyond urbanization metrics: Using graphical causal models to investigate mechanisms in urban ecology and evolution**
 
-The following files are included:
+*The following files are included:*
 
 #### measuredVariables.R
 
-R Code to estimate direct effects among measured variables based on the DAG in Fig. 3A.
+R Code to estimate direct effects among measured variables based on the DAG in Fig. 3A. Variables include building cover (`bld`) 
 
 #### measuredVariables.RData
 
