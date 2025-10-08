@@ -4,6 +4,10 @@
 
 *The following files are included:*
 
+#### simulation.R
+
+R code to a) simulate 1000 datasets from the causal relationships specified in the example DAG in Fig. 1, b) fit multiple regression models to estimate the causal effects (direct and total) of housing density on bird species diversity for each simulated dataset, and c) generate histograms of the estimated effects of housing density (regression parameters for the housing density slope) across the 1000 datasets for each regression model. The example shows how the causal meaning of a regression coefficient and accuracy of estimated causal effects depend on both the causal assumptions of a DAG and the specific parameterization of each regression model. 
+
 #### measuredVariables.R
 
 R Code to estimate direct effects among measured variables based on the DAG in Fig. 3A. 
